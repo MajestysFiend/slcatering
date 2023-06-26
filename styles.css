@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-        url('../images/slcateringbg.jpg');
+        url('./images/slcateringbg.jpg');
     background-size: cover;
     text-align: center;
     height: 100%;
