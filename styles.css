@@ -1,8 +1,11 @@
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url('./images/slcateringbg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    height: 135vh;
     text-align: center;
-    height: 100%;   
+    overflow: hidden;
 }
 
 .header-text {
@@ -207,29 +210,46 @@ li a {
 .card:hover > .card-header.card-image > img {
     transform: scale(1.025);
 }
+@media all and (max-width: 1430px) {
+    .home-text {
+        font-size: 50px;
+        margin-right: 50%;
+    }
+
+    .home-text2 {
+        font-size: 80px;
+    }
+
+    .text-center {
+        margin-top: 40%;
+    }
+}
 
 @media all and (max-width: 1200px) {
     .home-text {
-        font-size: 40px;
+        font-size: 30px;
     }
     .home-text2 {
         font-size: 70px;
     }
     .text-center {
-        margin-top: 40%;
+        margin-top: 50%;
     }
 }
 @media all and (max-width: 700px) {
     .home-text {
-        font-size: 30px;
+        font-size: 20px;
     }
     .home-text2 {
-        font-size: 60px;
+        font-size: 50px;
     }
     .fasthand-small {
         font-size: 30px;
     }
     .text-center {
-        margin-top: 70%;
-        }
+        margin-top: 100%;
+    }
+    table, td, th {
+        font-size: 20px;
+    }
 }
