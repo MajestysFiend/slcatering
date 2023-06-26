@@ -4,6 +4,7 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
     height: 140vh;
+    width: 100vw;
     text-align: center;
     overflow: hidden;
 }
@@ -164,7 +165,6 @@ li a {
 }
 
 .card {
-    margin-top: 1rem;
     background: white;
     padding: 1rem;
     border: 1px solid #777;
@@ -241,15 +241,30 @@ li a {
         font-size: 20px;
     }
     .home-text2 {
-        font-size: 50px;
+        font-size: 40px;
+    }
+    .fasthand-large {
+        font-size: 40px;
     }
     .fasthand-small {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .lato {
+        font-size: 20px;
     }
     .text-center {
         margin-top: 100%;
     }
     table, td, th {
         font-size: 20px;
+    }
+    .header-text {
+        font-size: 40px;
+    }
+    .contact-container {
+        font-size: 20px;
+    }
+    .menu-button {
+        font-size: 30px;
     }
 }
